@@ -1,0 +1,46 @@
+{
+  "tableData": [
+    {
+      "type": "慧融运营部",
+      "department":"活动运营1",
+      "remarks": "慧融运营部1",
+      "status": "开通",
+      "tag": "运营部"
+    },
+    {
+      "type": "财务出纳组",
+      "department":"活动运营2",
+      "remarks": "慧融运营部2",
+      "status": "开通",
+      "tag": "技术部"
+    },
+    {
+      "type": "新媒体运营组",
+      "department":"活动运营3",
+      "remarks": "慧融运营部3",
+      "status": "开通",
+      "tag": "运营部"
+    },
+    {
+      "type": "活动策划组",
+      "department":"活动运营4",
+      "remarks": "慧融运营部4",
+      "status": "关闭",
+      "tag": "运营部"
+    },
+    {
+      "type": "上标财务组",
+      "department":"活动运营5",
+      "remarks": "慧融运营部5",
+      "status": "开通",
+      "tag": "技术部"
+    },
+    {
+      "type": "财务管理组",
+      "department":"活动运营6",
+      "remarks": "慧融运营部6",
+      "status": "开通",
+      "tag": "技术部"
+    }
+  ]
+}
