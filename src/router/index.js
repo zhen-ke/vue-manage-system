@@ -14,7 +14,7 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: 'layout',
+      name: 'Layout',
       redirect: '/system/admin',
       component: Layout,
       children: [

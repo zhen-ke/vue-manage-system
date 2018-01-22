@@ -109,7 +109,7 @@
       filterTableData() {
         if (this.search.length > 0) {
           return this.tableData.filter(it => {
-            return it.type.indexOf(this.search) !== -1 || it.department.indexOf(this.search) !== -1 
+            return it.type.indexOf(this.search) !== -1 || it.department.indexOf(this.search) !== -1
           })
         } else {
           return this.tableData

@@ -1,7 +1,7 @@
 <template>
   <div class="navbar">
     <el-menu class="el-menu-navbar" mode="horizontal" @select="handleSelect" background-color="#545c64" text-color="#fff">
-      <router-link :to="{name: 'client1'}" tag="li" replace class="title">后台管理系统</router-link>
+      <router-link :to="{name: 'Layout'}" tag="li" replace class="title">后台管理系统</router-link>
       <el-submenu index="2" class="user">
         <template slot="title">{{username}}</template>
         <el-menu-item index="2-1">资料</el-menu-item>
