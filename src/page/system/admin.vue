@@ -5,7 +5,7 @@
         <el-col :span="2">
           <Addbtn @addData="add"></Addbtn>
         </el-col>
-        <el-col :span="4" :offset="18">
+        <el-col :span="6" :offset="16">
           <Search @changeSearch="updateSearch"></Search>
         </el-col>
       </el-row>
@@ -132,11 +132,11 @@
 <style lang='scss' scoped>
   .privileges-table {
     .table-hd {
-      padding: 15px;
+      padding: 15px 0;
     }
     .pagination {
       background-color: #fff;
-      padding: 15px;
+      padding: 15px 0;
       text-align: right;
     }
   }

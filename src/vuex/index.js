@@ -5,12 +5,22 @@ Vue.use(Vuex)
 
 const store = new Vuex.Store({
   state: {
-    count: 1
+    avatar: require('@/assets/logo.png'),
   },
   mutations: {
-    userinfo (state,value) {
-      console.log(value.username,value.password)
+    updateAvatar (state,payload) {
+      state.avatar = payload.url
     }
+  },
+  actions: {
+    // increment (context) {
+    //   context.commit('increment')
+    // }
+  },
+  getters: {
+    // doneTodos: state => {
+    //   return state.todos.filter(todo => todo.done)
+    // }
   }
 })
 

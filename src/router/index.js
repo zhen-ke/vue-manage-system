@@ -4,6 +4,7 @@ import Login from '@/components/login'
 import Layout from '@/components/layout'
 import Admin from '@/page/system/admin'
 import NotFound from '@/components/404'
+import AdminSettings from '@/page/settings/adminSettings'
 
 Vue.use(Router)
 
@@ -22,6 +23,11 @@ export default new Router({
           path: '/system/admin',
           name: 'Admin',
           component: Admin
+        },
+        {
+          path: '/settings/adminSettings',
+          name: 'AdminSettings',
+          component: AdminSettings
         },
       ],
     },

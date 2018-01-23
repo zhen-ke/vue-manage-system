@@ -50,7 +50,7 @@
       background-color: #E9EEF3;
       color: #333;
       height: calc(100vh - 61px);
-      padding: 0;
+      // padding: 0;
     }
   }
 
