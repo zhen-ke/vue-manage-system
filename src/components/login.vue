@@ -115,7 +115,6 @@
 </script>
 
 <style lang='scss' scoped>
-  @import "../../static/css/store_login.css";
   .login-content {
     width: 100%;
     height: 100%;
