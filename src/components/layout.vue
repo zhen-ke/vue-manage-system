@@ -17,41 +17,37 @@
 </template>
 
 <script>
-  import Navbar from '@/components/navbar'
-  import Sidebar from '@/components/sidebar'
-  import vMain from '@/components/main'
+import Navbar from '@/components/navbar';
+import Sidebar from '@/components/sidebar';
+import vMain from '@/components/main';
 
-  export default {
-    data() {
-      return {
-
-      }
-    },
-    components: {
-      Navbar,
-      Sidebar,
-      vMain
-    }
-  };
-
+export default {
+  data () {
+    return {};
+  },
+  components: {
+    Navbar,
+    Sidebar,
+    vMain
+  }
+};
 </script>
 
 <style lang='scss' scoped>
-  .main {
-    .el-header {
-      color: #333;
-      padding: 0;
-    }
-    .el-aside {
-      background-color: #D3DCE6;
-      color: #333;
-    }
-    .el-main {
-      background-color: #E9EEF3;
-      color: #333;
-      height: calc(100vh - 61px);
-      // padding: 0;
-    }
+.main {
+  .el-header {
+    color: #333;
+    padding: 0;
   }
-
+  .el-aside {
+    background-color: #d3dce6;
+    color: #333;
+  }
+  .el-main {
+    background-color: #e9eef3;
+    color: #333;
+    height: calc(100vh - 61px);
+    // padding: 0;
+  }
+}
 </style>

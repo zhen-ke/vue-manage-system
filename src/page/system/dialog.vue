@@ -34,27 +34,27 @@
         type: Object
       }
     },
-    data() {
+    data () {
       return {
-        formLabelWidth: '120px',
-      }
+        formLabelWidth: '120px'
+      };
     },
     methods: {
-      cancel(msg) {
-        let type = msg.type
+      cancel (msg) {
+        let type = msg.type;
         switch (type) {
-          case 'on': {
-            this.$emit('upData', {...this.editData})
-            break;
-          }
-          case 'off': {
-            break;
-          }
+            case 'on': {
+              this.$emit('upData', {...this.editData});
+              break;
+            }
+            case 'off': {
+              break;
+            }
         }
-        this.$emit('change', false)
+        this.$emit('change', false);
       }
-    },
-  }
+    }
+  };
 </script>
 
 <style lang='scss' scoped>

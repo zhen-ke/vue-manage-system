@@ -29,9 +29,9 @@
 </template>
 
 <script>
-  import Collapse from '@/components/collapse'
+  import Collapse from '@/components/collapse';
   export default {
-    data() {
+    data () {
       return {
         isCollapse: false
       };
@@ -40,11 +40,11 @@
       Collapse
     },
     methods: {
-      test(value) {
-        this.isCollapse = value
+      test (value) {
+        this.isCollapse = value;
       }
     }
-  }
+  };
 
 </script>
 

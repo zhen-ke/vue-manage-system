@@ -1,6 +1,6 @@
 export const valid = (to, from, next) => {
   // console.log(to, from)
-  let isLogin = sessionStorage.getItem('token')
+  let isLogin = sessionStorage.getItem('token');
   if (!isLogin) {
     if (to.path !== '/login') {
       next({
@@ -17,4 +17,4 @@ export const valid = (to, from, next) => {
     }
     next();
   }
-}
+};

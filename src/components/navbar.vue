@@ -16,21 +16,21 @@
 </template>
 
 <script>
-  import Collapse from '@/components/collapse'
-  import { mapState } from 'vuex'
+  import Collapse from '@/components/collapse';
+  import { mapState } from 'vuex';
 
   export default {
-    data() {
+    data () {
       return {
-        username: 'admin',
+        username: 'admin'
       };
     },
     methods: {
-      handleSelect(key, keyPath) {
+      handleSelect (key, keyPath) {
         console.log(key, keyPath, this);
         if (key === '2-3') {
-          this.removeSession('token')
-          this.$router.push('/login')
+          this.removeSession('token');
+          this.$router.push('/login');
           this.$message({
             message: '登出成功',
             type: 'success',
@@ -43,7 +43,7 @@
     components: {
       Collapse
     }
-  }
+  };
 
 </script>
 

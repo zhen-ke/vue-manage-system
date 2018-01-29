@@ -5,11 +5,11 @@
 <script>
 export default {
   methods: {
-    add() {
-      this.$emit('addData',true)
+    add () {
+      this.$emit('addData',true);
     }
   }
-}
+};
 </script>
 
 <style>

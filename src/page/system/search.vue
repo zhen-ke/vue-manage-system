@@ -6,18 +6,18 @@
 
 <script>
 export default {
-  data() {
+  data () {
     return  {
       input: ''
-    }
+    };
   },
   watch: {
-    input: function(newVal, oldVal) {
-      this.$emit('changeSearch',newVal)
+    input: function (newVal, oldVal) {
+      this.$emit('changeSearch',newVal);
       // console.log(newVal)
     }
   }
-}
+};
 </script>
 
 <style lang = "scss" scoped>
