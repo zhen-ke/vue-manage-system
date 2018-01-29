@@ -10,6 +10,9 @@ export default {
   props: {
     options: {
       type: Object
+    },
+    loading: {
+      type: Boolean
     }
   },
   data () {
@@ -20,11 +23,28 @@ export default {
   methods: {
     init () {
       this.chart = Echarts.init(this.$refs.charts);
+      if(this.loading) {
+        this.chart.showLoading();
+      }
       this.chart.setOption(this.options);
     }
   },
   mounted () {
     this.init();
+  },
+  watch: {
+    options (a,b) {
+      if(a) {
+        this.init();
+        console.log(a);
+      }
+    },
+    loading (newVal, oldVal) {
+      console.log(newVal,oldVal);
+      if(!newVal){
+        this.chart.hideLoading();
+      }
+    }
   }
 };
 </script>
