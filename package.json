@@ -12,6 +12,7 @@
   "dependencies": {
     "axios": "^0.17.1",
     "cors": "^2.8.4",
+    "echarts": "^4.0.2",
     "element-ui": "^2.0.11",
     "normalize.css": "^7.0.0",
     "vue": "^2.5.2",
