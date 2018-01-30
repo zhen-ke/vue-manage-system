@@ -145,7 +145,7 @@ export default {
   width: 100%;
   height: 100%;
   position: fixed;
-  background: #007acf;
+  background: #304156;
   .login-form {
     position: absolute;
     top: 50%;
