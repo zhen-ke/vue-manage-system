@@ -5,6 +5,7 @@ import Layout from '@/components/layout';
 import Admin from '@/page/system/admin';
 import NotFound from '@/components/404';
 import AdminSettings from '@/page/settings/adminSettings';
+import Dashboard from '@/page/dashboard/Dashboard';
 
 Vue.use(Router);
 
@@ -16,9 +17,14 @@ export default new Router({
     {
       path: '/',
       name: 'Layout',
-      redirect: '/system/admin',
+      redirect: '/dashboard',
       component: Layout,
       children: [
+        {
+          path: '/dashboard',
+          name: 'Dashboard',
+          component: Dashboard
+        },
         {
           path: '/system/admin',
           name: 'Admin',
